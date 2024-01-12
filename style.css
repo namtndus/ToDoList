@@ -35,3 +35,28 @@ header button span:hover{
     color: #084B83;
     border-color: #084B83;
 }
+
+.material-icons{
+    background-color: transparent;
+    border: 0;
+    color: #42BFDD;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.item input[type=text]{
+    width: 30rem;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #42BFDD;
+    outline: none;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: black;
+}
